@@ -22,6 +22,9 @@ layout: default
         <a href="{{site.url}}/test2/{{post.url}}"><img src="{{site.url}}/test2/assets/img/{{post.image}}" alt="{{post.title}}" /></a>
       </div>
       {% endif %}
+      <p>
+      {{ post.excerpt }}
+      </p>
 
     </li>
     {% endfor %}
